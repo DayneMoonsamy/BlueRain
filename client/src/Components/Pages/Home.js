@@ -22,8 +22,8 @@ const Home = () => {
                     <img alt="Animal" src={person.picture} className="image" style={{width:"300px", height:"260px"}}/>
                     <h2>{person.name}</h2>
                     <i>{person.genus}</i>
-                    <p>Colour:{person.colour}</p>
-                    <p>Conservation status: {person.difficulty}</p>
+                    <p>Colour:  {person.colour}</p>
+                    <p>Conservation status: {person.conserve}</p>
                     <p>Location: {person.location}</p>
                 </div>
         </div>     
